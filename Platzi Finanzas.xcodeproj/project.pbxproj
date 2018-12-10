@@ -54,14 +54,102 @@
 		8CE770AE21BE32BE007D4D27 /* Platzi Finanzas */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770C321BE361B007D4D27 /* Resources */,
+				8CE770C221BE35F3007D4D27 /* Base */,
+				8CE770C121BE35E0007D4D27 /* Application */,
+			);
+			path = "Platzi Finanzas";
+			sourceTree = "<group>";
+		};
+		8CE770C121BE35E0007D4D27 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770C621BE3696007D4D27 /* Main */,
+				8CE770C521BE3685007D4D27 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8CE770C221BE35F3007D4D27 /* Base */ = {
+			isa = PBXGroup;
+			children = (
 				8CE770AF21BE32BE007D4D27 /* AppDelegate.swift */,
-				8CE770B121BE32BE007D4D27 /* ViewController.swift */,
-				8CE770B321BE32BE007D4D27 /* Main.storyboard */,
-				8CE770B621BE32C0007D4D27 /* Assets.xcassets */,
 				8CE770B821BE32C0007D4D27 /* LaunchScreen.storyboard */,
 				8CE770BB21BE32C0007D4D27 /* Info.plist */,
 			);
-			path = "Platzi Finanzas";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8CE770C321BE361B007D4D27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770C421BE3644007D4D27 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CE770C421BE3644007D4D27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770B621BE32C0007D4D27 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8CE770C521BE3685007D4D27 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770C821BE36D4007D4D27 /* Sign In */,
+				8CE770C721BE36BB007D4D27 /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8CE770C621BE3696007D4D27 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770CB21BE3735007D4D27 /* Main */,
+				8CE770CA21BE3714007D4D27 /* Transaction */,
+				8CE770C921BE36FF007D4D27 /* Profile */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8CE770C721BE36BB007D4D27 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		8CE770C821BE36D4007D4D27 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		8CE770C921BE36FF007D4D27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8CE770CA21BE3714007D4D27 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		8CE770CB21BE3735007D4D27 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770B121BE32BE007D4D27 /* ViewController.swift */,
+				8CE770B321BE32BE007D4D27 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FSGNPC4S73;
-				INFOPLIST_FILE = "Platzi Finanzas/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Platzi Finanzas/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FSGNPC4S73;
-				INFOPLIST_FILE = "Platzi Finanzas/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Platzi Finanzas/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
