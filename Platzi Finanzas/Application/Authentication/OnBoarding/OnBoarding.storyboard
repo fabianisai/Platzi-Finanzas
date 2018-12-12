@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bVF-tS-goA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On Boarding Steps View Controller-->
+        <scene sceneID="eSx-La-H2x">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingSteps" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9jQ-K4-GwR" customClass="OnBoardingStepsViewController" customModule="Platzi_Finanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Pf-O7-Rwv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lgd-WB-Jyc">
+                                <rect key="frame" x="87.5" y="93.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="HYF-CI-o5d"/>
+                                    <constraint firstAttribute="height" constant="200" id="aQn-9I-2Hv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnH-t4-sZ6">
+                                <rect key="frame" x="20" y="313.5" width="335" height="45.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="33"/>
+                                <color key="textColor" name="GreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mr6-M3-Qwr">
+                                <rect key="frame" x="20" y="367" width="335" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" name="GrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bSt-a0-pTT" firstAttribute="trailing" secondItem="Mr6-M3-Qwr" secondAttribute="trailing" constant="20" id="4vM-mY-uYl"/>
+                            <constraint firstItem="Lgd-WB-Jyc" firstAttribute="centerY" secondItem="8Pf-O7-Rwv" secondAttribute="centerY" constant="-140" id="HHq-io-IgL"/>
+                            <constraint firstItem="FnH-t4-sZ6" firstAttribute="leading" secondItem="bSt-a0-pTT" secondAttribute="leading" constant="20" id="HK8-ou-fjD"/>
+                            <constraint firstItem="Mr6-M3-Qwr" firstAttribute="top" secondItem="FnH-t4-sZ6" secondAttribute="bottom" constant="8" id="aBg-tF-vv1"/>
+                            <constraint firstItem="Lgd-WB-Jyc" firstAttribute="centerX" secondItem="8Pf-O7-Rwv" secondAttribute="centerX" id="ahE-dR-w3x"/>
+                            <constraint firstItem="bSt-a0-pTT" firstAttribute="trailing" secondItem="FnH-t4-sZ6" secondAttribute="trailing" constant="20" id="bhR-Xl-jLD"/>
+                            <constraint firstItem="FnH-t4-sZ6" firstAttribute="top" secondItem="Lgd-WB-Jyc" secondAttribute="bottom" constant="20" id="nTq-9u-eJS"/>
+                            <constraint firstItem="Mr6-M3-Qwr" firstAttribute="leading" secondItem="bSt-a0-pTT" secondAttribute="leading" constant="20" id="xmf-f6-2N2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bSt-a0-pTT"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Mr6-M3-Qwr" id="uFY-yT-RAI"/>
+                        <outlet property="onBoaringImage" destination="Lgd-WB-Jyc" id="bLa-xq-JeP"/>
+                        <outlet property="titleLabel" destination="FnH-t4-sZ6" id="xU6-id-8Bd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bH8-97-CvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="-6"/>
+        </scene>
+        <!--On Boarding Container View Controller-->
+        <scene sceneID="pvS-qc-8J8">
+            <objects>
+                <viewController id="bVF-tS-goA" customClass="OnBoardingContainerViewController" customModule="Platzi_Finanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dtH-Tg-uCa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fP-CX-wFa">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <connections>
+                                    <segue destination="qb7-Up-iOr" kind="embed" identifier="openOnBoarding" id="zN6-X8-OVs"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC6-bn-6ih">
+                                <rect key="frame" x="20" y="612" width="335" height="35"/>
+                                <color key="backgroundColor" name="GreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="QpS-an-GgP"/>
+                                    <constraint firstAttribute="height" constant="35" id="vG7-1t-WBH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Iniciar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
+                                        <color key="value" name="GreenShadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Uv3-hG-6ws" kind="presentation" identifier="SignIn" id="dnK-sz-SR9"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="eYa-Hk-jpb">
+                                <rect key="frame" x="168" y="492" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RC6-bn-6ih" firstAttribute="leading" secondItem="O57-pY-HZZ" secondAttribute="leading" constant="20" id="FXJ-dG-VuQ"/>
+                            <constraint firstItem="eYa-Hk-jpb" firstAttribute="centerX" secondItem="dtH-Tg-uCa" secondAttribute="centerX" id="dtV-t3-qa9"/>
+                            <constraint firstItem="RC6-bn-6ih" firstAttribute="top" secondItem="eYa-Hk-jpb" secondAttribute="bottom" constant="83" id="eyd-qh-SUa"/>
+                            <constraint firstItem="O57-pY-HZZ" firstAttribute="bottom" secondItem="RC6-bn-6ih" secondAttribute="bottom" constant="20" id="i6C-hk-19n"/>
+                            <constraint firstItem="0fP-CX-wFa" firstAttribute="top" secondItem="dtH-Tg-uCa" secondAttribute="topMargin" id="jxY-wR-YFh"/>
+                            <constraint firstItem="0fP-CX-wFa" firstAttribute="leading" secondItem="dtH-Tg-uCa" secondAttribute="leadingMargin" id="l5E-dq-70c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0fP-CX-wFa" secondAttribute="trailing" id="qKL-FX-eaF"/>
+                            <constraint firstItem="O57-pY-HZZ" firstAttribute="trailing" secondItem="RC6-bn-6ih" secondAttribute="trailing" constant="20" id="qZE-Bk-xCs"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="0fP-CX-wFa" secondAttribute="bottom" id="rhh-TT-blf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O57-pY-HZZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="PageControl" destination="eYa-Hk-jpb" id="bmS-aW-8BD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xhr-K5-drB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1428" y="-7"/>
+        </scene>
+        <!--SignIn-->
+        <scene sceneID="aFF-jG-2D8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignIn" id="Uv3-hG-6ws" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzf-KV-paY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1479" y="450"/>
+        </scene>
+        <!--On Boarding View Controller-->
+        <scene sceneID="qV5-Vs-wDf">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="qb7-Up-iOr" customClass="OnBoardingViewController" customModule="Platzi_Finanzas" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6h-zJ-OsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-682" y="-8"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GrayColor">
+            <color red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenShadow">
+            <color red="0.31764705882352939" green="0.39215686274509803" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

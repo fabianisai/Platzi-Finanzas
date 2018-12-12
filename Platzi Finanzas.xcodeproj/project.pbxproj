@@ -12,6 +12,18 @@
 		8CE770B521BE32BE007D4D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770B321BE32BE007D4D27 /* Main.storyboard */; };
 		8CE770B721BE32C0007D4D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770B621BE32C0007D4D27 /* Assets.xcassets */; };
 		8CE770BA21BE32C0007D4D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770B821BE32C0007D4D27 /* LaunchScreen.storyboard */; };
+		8CE770CD21BEEC6A007D4D27 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770CC21BEEC6A007D4D27 /* Transactions.storyboard */; };
+		8CE770D321BEEE4A007D4D27 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770D221BEEE4A007D4D27 /* Budget.storyboard */; };
+		8CE770D521BEEE8A007D4D27 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770D421BEEE8A007D4D27 /* Statistics.storyboard */; };
+		8CE770D721BEEEB2007D4D27 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770D621BEEEB2007D4D27 /* Profile.storyboard */; };
+		8CE770D921BEEEFA007D4D27 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770D821BEEEFA007D4D27 /* Add.storyboard */; };
+		8CE770DB21BEFC95007D4D27 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770DA21BEFC95007D4D27 /* SignIn.storyboard */; };
+		8CE770DE21C04CD9007D4D27 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770DD21C04CD9007D4D27 /* Colors.xcassets */; };
+		8CE770E121C07795007D4D27 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE770E021C07795007D4D27 /* Shadow.swift */; };
+		8CE770E521C08ABC007D4D27 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE770E421C08ABC007D4D27 /* OnBoarding.storyboard */; };
+		8CE770E721C1918A007D4D27 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE770E621C1918A007D4D27 /* OnBoardingContainerViewController.swift */; };
+		8CE770E921C1989A007D4D27 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE770E821C1989A007D4D27 /* OnBoardingViewController.swift */; };
+		8CE770EB21C19FBA007D4D27 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE770EA21C19FBA007D4D27 /* OnBoardingStepsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		8CE770B621BE32C0007D4D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CE770B921BE32C0007D4D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE770BB21BE32C0007D4D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE770CC21BEEC6A007D4D27 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		8CE770D221BEEE4A007D4D27 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		8CE770D421BEEE8A007D4D27 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		8CE770D621BEEEB2007D4D27 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8CE770D821BEEEFA007D4D27 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		8CE770DA21BEFC95007D4D27 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		8CE770DD21C04CD9007D4D27 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8CE770E021C07795007D4D27 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		8CE770E421C08ABC007D4D27 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		8CE770E621C1918A007D4D27 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		8CE770E821C1989A007D4D27 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		8CE770EA21C19FBA007D4D27 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 		8CE770AE21BE32BE007D4D27 /* Platzi Finanzas */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770DF21C07712007D4D27 /* Extensions */,
 				8CE770C321BE361B007D4D27 /* Resources */,
 				8CE770C221BE35F3007D4D27 /* Base */,
 				8CE770C121BE35E0007D4D27 /* Application */,
@@ -83,6 +108,7 @@
 		8CE770C321BE361B007D4D27 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770DC21C04CA4007D4D27 /* Colors */,
 				8CE770C421BE3644007D4D27 /* Images */,
 			);
 			path = Resources;
@@ -108,6 +134,9 @@
 		8CE770C621BE3696007D4D27 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770D021BEEDFA007D4D27 /* Budget */,
+				8CE770CF21BEEDE5007D4D27 /* Statistics */,
+				8CE770CE21BEEDBB007D4D27 /* Add */,
 				8CE770CB21BE3735007D4D27 /* Main */,
 				8CE770CA21BE3714007D4D27 /* Transaction */,
 				8CE770C921BE36FF007D4D27 /* Profile */,
@@ -118,6 +147,10 @@
 		8CE770C721BE36BB007D4D27 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770E421C08ABC007D4D27 /* OnBoarding.storyboard */,
+				8CE770E621C1918A007D4D27 /* OnBoardingContainerViewController.swift */,
+				8CE770E821C1989A007D4D27 /* OnBoardingViewController.swift */,
+				8CE770EA21C19FBA007D4D27 /* OnBoardingStepsViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -125,6 +158,7 @@
 		8CE770C821BE36D4007D4D27 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770DA21BEFC95007D4D27 /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -132,6 +166,7 @@
 		8CE770C921BE36FF007D4D27 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770D621BEEEB2007D4D27 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -139,6 +174,7 @@
 		8CE770CA21BE3714007D4D27 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				8CE770CC21BEEC6A007D4D27 /* Transactions.storyboard */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -150,6 +186,46 @@
 				8CE770B321BE32BE007D4D27 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8CE770CE21BEEDBB007D4D27 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770D821BEEEFA007D4D27 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		8CE770CF21BEEDE5007D4D27 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770D421BEEE8A007D4D27 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		8CE770D021BEEDFA007D4D27 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770D221BEEE4A007D4D27 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		8CE770DC21C04CA4007D4D27 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770DD21C04CD9007D4D27 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		8CE770DF21C07712007D4D27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CE770E021C07795007D4D27 /* Shadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +286,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE770D321BEEE4A007D4D27 /* Budget.storyboard in Resources */,
+				8CE770E521C08ABC007D4D27 /* OnBoarding.storyboard in Resources */,
 				8CE770BA21BE32C0007D4D27 /* LaunchScreen.storyboard in Resources */,
 				8CE770B721BE32C0007D4D27 /* Assets.xcassets in Resources */,
+				8CE770D521BEEE8A007D4D27 /* Statistics.storyboard in Resources */,
+				8CE770DB21BEFC95007D4D27 /* SignIn.storyboard in Resources */,
+				8CE770DE21C04CD9007D4D27 /* Colors.xcassets in Resources */,
 				8CE770B521BE32BE007D4D27 /* Main.storyboard in Resources */,
+				8CE770D721BEEEB2007D4D27 /* Profile.storyboard in Resources */,
+				8CE770D921BEEEFA007D4D27 /* Add.storyboard in Resources */,
+				8CE770CD21BEEC6A007D4D27 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE770E121C07795007D4D27 /* Shadow.swift in Sources */,
+				8CE770EB21C19FBA007D4D27 /* OnBoardingStepsViewController.swift in Sources */,
 				8CE770B221BE32BE007D4D27 /* ViewController.swift in Sources */,
 				8CE770B021BE32BE007D4D27 /* AppDelegate.swift in Sources */,
+				8CE770E721C1918A007D4D27 /* OnBoardingContainerViewController.swift in Sources */,
+				8CE770E921C1989A007D4D27 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
